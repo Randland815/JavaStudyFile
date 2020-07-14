@@ -1,0 +1,13 @@
+package javaSourceDemo;
+
+public class SearchDemo {
+	public static void main(String[] args) {
+		// 随机生成一个数组
+		int[] nums = new int[10];
+		for (int i = 0; i < nums.length; i++) {
+			nums[i] = ((int) (Math.random() * 10000)) % 1001;
+		}
+		// 让用户输入要查找的数字，遍历数组，查找对应的元素
+		// 找到了输出下边，没有找到输出-1
+	}
+}
