@@ -1,0 +1,8 @@
+package javaSourceDemo;
+
+public class ArrayDemo {
+	public static void main(String[] args) {
+		int[] nums; // 声明一个整形数组 num
+
+	}
+}
