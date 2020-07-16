@@ -1,0 +1,15 @@
+package javaSourceDemo;
+
+public class BubbleSortDemo {
+	public static void main(String[] args) {
+		// 使用冒泡排序
+		// 1.一共会比较数组元素个数-1轮
+		// 2.每一轮，比较的次数比上一次少一
+		// 3.如果前面一个数大于/小于后面一个数字，那么交换
+		// 随机生成一个数组，求里面的最大值和最小值
+		int[] nums = new int[10];
+		for (int i = 0; i < nums.length; i++) {
+			nums[i] = ((int) (Math.random() * 10000)) % 1001;
+		}
+	}
+}

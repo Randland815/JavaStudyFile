@@ -1,0 +1,13 @@
+package javaSourceDemo;
+
+public class ShuffleCardsDemo {
+	public static void main(String[] args) {
+		final int N = 52;// 一共52张牌
+		int[] cards = new int[N];
+		for (int i = 0; i < cards.length; i++) {
+			cards[i] = i;// 牌面与循环变量的值一致，0-51之间
+		}
+		// 洗牌：随机生成一个0-51之间的数字newIndex，cards[i]和cards[newIndex]
+		// 的元素互换
+	}
+}

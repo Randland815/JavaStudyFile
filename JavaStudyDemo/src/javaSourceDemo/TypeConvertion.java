@@ -1,6 +1,6 @@
 package javaSourceDemo;
 
-public class TypeConversion {
+public class TypeConvertion {
 	public static void main(String[] args) {
 		/*
 		 * 自动类型转换 int num = 90; double num1 = num;

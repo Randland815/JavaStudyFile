@@ -1,0 +1,23 @@
+package javaSourceDemo;
+
+import java.util.Arrays;
+
+public class ArraysSort {
+	public static void main(String[] args) {
+		// 随机生成一个数组
+		int[] nums = new int[10];
+		for (int i = 0; i < nums.length; i++) {
+			nums[i] = ((int) (Math.random() * 10000)) % 1001;
+		}
+		System.out.print("排序前：");
+		for (int i = 0; i < nums.length; i++) {
+			System.out.print(nums[i] + " ");
+		}
+		Arrays.sort(nums);
+		System.out.println();
+		System.out.print("排序后：");
+		for (int i = 0; i < nums.length; i++) {
+			System.out.print(nums[i] + " ");
+		}
+	}
+}
